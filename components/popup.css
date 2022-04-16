@@ -226,10 +226,11 @@
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-[data-tooltip][data-inverted]:after .header {
+/* FIXME{devmao): Invalid selector - Parcel 2.4.1 fails building it */
+/* [data-tooltip][data-inverted]:after .header {
   background-color: none;
   color: #FFFFFF;
-}
+} */
 
 /*--------------
     Position
